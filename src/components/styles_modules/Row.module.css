@@ -1,0 +1,24 @@
+.row {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.rowWrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 5px;
+  border-top: 2px solid rgba(53, 50, 205, 0.611);
+  border-left: 2px solid rgba(53, 50, 205, 0.611);
+  border-right: 2px solid rgba(53, 50, 205, 0.611);
+  border-bottom: 2px solid rgba(53, 50, 205, 0.611);
+}
+
+.hidden {
+  display: none;
+}
+
+.disp {
+  display: block;
+}

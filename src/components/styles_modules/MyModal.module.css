@@ -1,0 +1,30 @@
+.myModal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.myModal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(45deg, #e1e4bc, #b4dff3);
+    border-radius: 10px;
+    width: 300px;
+}
+
+.modalText {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,15 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 30px;
+  font: 'IBMPlexSerif';
+}
+
+.tableWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}

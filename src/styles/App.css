@@ -1,0 +1,25 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45deg, #e1e4bc, #b4dff3);
+}
+
+#root {
+  display: flex;
+  margin-top: 0;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  width: 800px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
